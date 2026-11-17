@@ -1,9 +1,9 @@
 {
- "versionCode": 78,
- "versionName": "3.5.5",
+ "versionCode": 79,
+ "versionName": "3.5.6",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.5.apk",
- "notes": "会话历史按网页端规则渲染：工具调用按 run 合并成卡、纯思考行不再单独显示、补任务计划卡/本轮改动/用量卡、前台自动对齐",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.6.apk",
+ "notes": "思考过程/工具调用真正自动折叠：正文一出现收起思考，工具跑完收起卡片，新一轮自动展开，整轮结束全部收起；历史每轮保留一条收起状态的思考头",
  "size": 375337
 }
