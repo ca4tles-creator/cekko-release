@@ -4,6 +4,6 @@
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
  "apkPath": "app-release/ekko-studio-android/Cekko-3.4.4.apk",
- "notes": "在线更新：公网源改为 GitHub Releases 的 latest/download（每次发版即新地址，不受 CDN 缓存影响）；下载由原生按候选地址依次尝试，token 只发给自己的服务器。",
+ "notes": "幂等重发验证：同名 release 复用、资产覆盖",
  "size": 363049
 }
