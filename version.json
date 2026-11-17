@@ -1,9 +1,9 @@
 {
- "versionCode": 76,
- "versionName": "3.5.3",
+ "versionCode": 77,
+ "versionName": "3.5.4",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.3.apk",
- "notes": "脱敏模式：一键给 IP、密钥、手机号、邮箱、家目录、UUID 打码，截图可放心分享",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.4.apk",
+ "notes": "清理发布物中的真实地址与手机号；toApiPath 不再写死家目录用户名",
  "size": 367145
 }
