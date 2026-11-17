@@ -1,9 +1,9 @@
 {
- "versionCode": 79,
- "versionName": "3.5.6",
+ "versionCode": 80,
+ "versionName": "3.5.7",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.6.apk",
- "notes": "思考过程/工具调用真正自动折叠：正文一出现收起思考，工具跑完收起卡片，新一轮自动展开，整轮结束全部收起；历史每轮保留一条收起状态的思考头",
- "size": 375337
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.7.apk",
+ "notes": "切后台不再断连：运行中启用前台服务+CPU唤醒锁保活，回前台无条件重连并对齐内容",
+ "size": 379433
 }
