@@ -4,6 +4,6 @@
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
  "apkPath": "app-release/ekko-studio-android/Cekko-3.4.6.apk",
- "notes": "修发版脚本的版本名替换（上一版 app.js 内版本串没跟着升）",
+ "notes": "修发版脚本的版本名替换（app.js 内版本串与 manifest 对齐）",
  "size": 363049
 }
