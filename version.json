@@ -1,9 +1,9 @@
 {
- "versionCode": 77,
- "versionName": "3.5.4",
+ "versionCode": 78,
+ "versionName": "3.5.5",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.4.apk",
- "notes": "清理发布物中的真实地址与手机号；toApiPath 不再写死家目录用户名",
- "size": 367145
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.5.apk",
+ "notes": "会话历史按网页端规则渲染：工具调用按 run 合并成卡、纯思考行不再单独显示、补任务计划卡/本轮改动/用量卡、前台自动对齐",
+ "size": 375337
 }
