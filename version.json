@@ -1,9 +1,9 @@
 {
- "versionCode": 72,
- "versionName": "3.4.9",
+ "versionCode": 74,
+ "versionName": "3.5.1",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.4.9.apk",
- "notes": "切换到新的细粒度 token（仅 cekko-release 一个仓库、Contents 读写），发版链路复验",
- "size": 363049
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.1.apk",
+ "notes": "新增多实例：可保存并切换多个 Hermes 服务器（各自登录态/profile，草稿按实例隔离）；会话页顶部实例胶囊、设置页实例管理（添加/重命名/移除）",
+ "size": 367145
 }
