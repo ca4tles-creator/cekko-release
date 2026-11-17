@@ -1,0 +1,9 @@
+{
+ "versionCode": 65,
+ "versionName": "3.4.2",
+ "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
+ "apkMirrors": [],
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.4.2.apk",
+ "notes": "在线更新改为永久公网源（GitHub Releases）：任意网络下都能检查并下载；服务器可达时仍优先用服务器。图标为侧分波浪发形象。",
+ "size": 363049
+}
