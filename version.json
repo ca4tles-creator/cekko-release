@@ -1,9 +1,9 @@
 {
- "versionCode": 66,
- "versionName": "3.4.3",
+ "versionCode": 67,
+ "versionName": "3.4.4",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.4.3.apk",
- "notes": "在线更新改走 GitHub Releases（永久公网源）：任意网络可查可下；下载不再做 JS 预检（跨域 CORS 会误杀），改由原生按候选地址依次尝试，token 只发给自己的服务器。",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.4.4.apk",
+ "notes": "在线更新：公网源改为 GitHub Releases 的 latest/download（每次发版即新地址，不受 CDN 缓存影响）；下载由原生按候选地址依次尝试，token 只发给自己的服务器。",
  "size": 363049
 }
