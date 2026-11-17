@@ -1,9 +1,9 @@
 {
- "versionCode": 69,
- "versionName": "3.4.6",
+ "versionCode": 70,
+ "versionName": "3.4.7",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.4.6.apk",
- "notes": "修发版脚本的版本名替换（app.js 内版本串与 manifest 对齐）",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.4.7.apk",
+ "notes": "公网 feed 加时间戳参数，绕过 GitHub latest 重定向的 CDN 缓存；发版脚本版本串替换修正",
  "size": 363049
 }
