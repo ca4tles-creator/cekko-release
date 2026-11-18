@@ -1,9 +1,9 @@
 {
- "versionCode": 85,
- "versionName": "3.5.12",
+ "versionCode": 86,
+ "versionName": "3.5.13",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.12.apk",
- "notes": "首页：选择收进长按（头部更简洁）、生图做成带最近缩略图的小卡片",
- "size": 387625
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.13.apk",
+ "notes": "图标换成新版人像（自适应/圆形/主题剪影全套），登录页 logo 同步",
+ "size": 776745
 }
