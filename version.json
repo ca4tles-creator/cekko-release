@@ -1,9 +1,9 @@
 {
- "versionCode": 81,
- "versionName": "3.5.8",
+ "versionCode": 82,
+ "versionName": "3.5.9",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.8.apk",
- "notes": "新增生图工作台：5 个服务商、文生图/图生图、比例与尺寸、历史画廊、保存/分享/删除",
- "size": 383529
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.9.apk",
+ "notes": "修复首页「今日 tokens」不准：改用服务器 period=today 统计，本地估算只作降级并标≈；会话预览不再显示原始 JSON",
+ "size": 387625
 }
