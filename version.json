@@ -1,9 +1,9 @@
 {
- "versionCode": 80,
- "versionName": "3.5.7",
+ "versionCode": 81,
+ "versionName": "3.5.8",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.7.apk",
- "notes": "切后台不再断连：运行中启用前台服务+CPU唤醒锁保活，回前台无条件重连并对齐内容",
- "size": 379433
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.8.apk",
+ "notes": "新增生图工作台：5 个服务商、文生图/图生图、比例与尺寸、历史画廊、保存/分享/删除",
+ "size": 383529
 }
