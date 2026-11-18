@@ -1,9 +1,9 @@
 {
- "versionCode": 83,
- "versionName": "3.5.10",
+ "versionCode": 84,
+ "versionName": "3.5.11",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.10.apk",
- "notes": "修复同一回答显示两次：自动对齐/加载更早消息时剔除已落库的本地乐观消息（对话与用户气泡都不再重复）",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.11.apk",
+ "notes": "生图工作台入口移到首页头部（图片图标），设置页不再保留入口",
  "size": 387625
 }
