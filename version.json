@@ -1,9 +1,9 @@
 {
- "versionCode": 89,
- "versionName": "3.5.16",
+ "versionCode": 90,
+ "versionName": "3.5.17",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.16.apk",
- "notes": "新增「对话式」风格（Muse/Gemini 那种）：大圆角卡片、悬浮输入区、问候+快捷输入、用户淡色气泡、深浅两套，可在设置里切回工程舱",
- "size": 760361
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.17.apk",
+ "notes": "tokens 显示修正：会话行改用 state.db 权威用量（原来除 Web UI 自己跑的会话外全是 0），今日 tokens 查询与网页端完全同参（time_zone + 全部 profile），点按显示统计窗口与入/出/缓存/命中率",
+ "size": 764457
 }
