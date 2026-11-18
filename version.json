@@ -1,9 +1,9 @@
 {
- "versionCode": 84,
- "versionName": "3.5.11",
+ "versionCode": 85,
+ "versionName": "3.5.12",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.11.apk",
- "notes": "生图工作台入口移到首页头部（图片图标），设置页不再保留入口",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.12.apk",
+ "notes": "首页：选择收进长按（头部更简洁）、生图做成带最近缩略图的小卡片",
  "size": 387625
 }
