@@ -1,9 +1,9 @@
 {
- "versionCode": 92,
- "versionName": "3.5.19",
+ "versionCode": 93,
+ "versionName": "3.5.20",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.19.apk",
- "notes": "新对话界面可以选择模型：首页输入框下新增模型胶囊（与聊天页共用运行配置面板，选完即用于下一条对话），聊天页的模型胶囊恢复可见边界+下拉箭头提示，首页发送键空输入时置灰",
- "size": 764457
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.20.apk",
+ "notes": "图标换成黑白线稿头像：自适应(圆形安全区，头部完整/肩部出血)、legacy 满幅圆角、round、主题剪影(实心)，登录页与首页头像同步",
+ "size": 526889
 }
