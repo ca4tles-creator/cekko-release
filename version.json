@@ -1,9 +1,9 @@
 {
- "versionCode": 90,
- "versionName": "3.5.17",
+ "versionCode": 91,
+ "versionName": "3.5.18",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.17.apk",
- "notes": "tokens 显示修正：会话行改用 state.db 权威用量（原来除 Web UI 自己跑的会话外全是 0），今日 tokens 查询与网页端完全同参（time_zone + 全部 profile），点按显示统计窗口与入/出/缓存/命中率",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.18.apk",
+ "notes": "已发送的消息不会再回到待发送：修掉草稿防抖在发送后落地把文本写回（最常见的复现是打完立刻回车），并新增按聊天记录对账——恢复的队列条目若已出现在记录里自动剔除，sendChat 再按 qid 兜底清队",
  "size": 764457
 }
