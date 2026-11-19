@@ -1,9 +1,9 @@
 {
- "versionCode": 101,
- "versionName": "3.5.28",
+ "versionCode": 102,
+ "versionName": "3.5.29",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.28.apk",
- "notes": "实时通道修复：Forbidden 不再被误判为登录失效（避免一次握手失败直接登出）；兼容模式跑完自动静默复探，通了立即恢复实时流（不必再等 10 分钟）；自检通过即解除兼容模式；修正 #/chat/new 把 new 当成会话 id 的问题；实例切换时同步凭证，避免状态分叉导致 401",
- "size": 535081
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.29.apk",
+ "notes": "修复 Lucky 反代域名下实时通道超时：原生中继改为 Happy Eyeballs 双栈连接（域名有 AAAA 但 IPv6 端口不通时，不再干等 IPv6 超时，250ms 内并行回落到 IPv4）；自检新增 DNS/TCP/TLS 分段耗时与实际落地地址；进入会话页即预热实时连接并跨轮复用，发消息不再每次重新握手",
+ "size": 539177
 }
