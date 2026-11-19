@@ -1,9 +1,9 @@
 {
- "versionCode": 95,
- "versionName": "3.5.22",
+ "versionCode": 96,
+ "versionName": "3.5.23",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.22.apk",
- "notes": "反代后面连不稳：诊断工具（REST/WS 分别自检并给结论）、WS 被拦时自动改走兼容模式且不再每轮闪烁、隧道支持子路径前缀、心跳 45s→20s",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.23.apk",
+ "notes": "后台保活的横幅通知：改为 IMPORTANCE_MIN（静音、不弹横幅、锁屏不显示）+ Android 12+ 延迟 10s 显示，短回复完全看不到；设置里新增「后台保活」说明面板，可一键跳到系统关闭通知，或直接关掉保活",
  "size": 530985
 }
