@@ -1,9 +1,9 @@
 {
- "versionCode": 99,
- "versionName": "3.5.26",
+ "versionCode": 100,
+ "versionName": "3.5.27",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.26.apk",
- "notes": "设置 · 实时通道自检：去掉说明小字；自检中显示「自检中…」并锁住入口，连点不再并发多路检测",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.27.apk",
+ "notes": "多实例互踢修复：每个实例使用独立设备码（不再共用一行 app 连接、后登录顶掉先前 token）；401/Unauthorized 识别为凭证失效（自动续期或明确提示），不再误记为 WS 故障导致 10 分钟兼容模式",
  "size": 535081
 }
