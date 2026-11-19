@@ -1,9 +1,9 @@
 {
- "versionCode": 103,
- "versionName": "3.5.30",
+ "versionCode": 104,
+ "versionName": "3.5.31",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.30.apk",
- "notes": "连接池复用修正：复用的预热连接不会重发 connect 事件，改为检测已连接即刻起跑（否则会卡在「连接中」）；实测同一会话连发两轮，连接耗时 7ms / 1ms",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.31.apk",
+ "notes": "实时通道稳定性：断开原因写入状态并在设置页显示（transport close / ping timeout / io server disconnect 一目了然）；池中连接断掉会立即失效，不再复用死连接导致卡在「连接中」；单次快速重连不再闪「连接中断」；中途掉线不再写 10 分钟健康记录（只有从未连上过才算反代不支持）；轮询收工判定从 1 次改为 3 次静止并自动对齐历史，断线后答案不再被截断",
  "size": 539177
 }
