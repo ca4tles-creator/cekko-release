@@ -1,9 +1,9 @@
 {
- "versionCode": 102,
- "versionName": "3.5.29",
+ "versionCode": 103,
+ "versionName": "3.5.30",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.29.apk",
- "notes": "修复 Lucky 反代域名下实时通道超时：原生中继改为 Happy Eyeballs 双栈连接（域名有 AAAA 但 IPv6 端口不通时，不再干等 IPv6 超时，250ms 内并行回落到 IPv4）；自检新增 DNS/TCP/TLS 分段耗时与实际落地地址；进入会话页即预热实时连接并跨轮复用，发消息不再每次重新握手",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.30.apk",
+ "notes": "连接池复用修正：复用的预热连接不会重发 connect 事件，改为检测已连接即刻起跑（否则会卡在「连接中」）；实测同一会话连发两轮，连接耗时 7ms / 1ms",
  "size": 539177
 }
