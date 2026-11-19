@@ -1,9 +1,9 @@
 {
- "versionCode": 91,
- "versionName": "3.5.18",
+ "versionCode": 92,
+ "versionName": "3.5.19",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.18.apk",
- "notes": "已发送的消息不会再回到待发送：修掉草稿防抖在发送后落地把文本写回（最常见的复现是打完立刻回车），并新增按聊天记录对账——恢复的队列条目若已出现在记录里自动剔除，sendChat 再按 qid 兜底清队",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.19.apk",
+ "notes": "新对话界面可以选择模型：首页输入框下新增模型胶囊（与聊天页共用运行配置面板，选完即用于下一条对话），聊天页的模型胶囊恢复可见边界+下拉箭头提示，首页发送键空输入时置灰",
  "size": 764457
 }
