@@ -1,9 +1,9 @@
 {
- "versionCode": 94,
- "versionName": "3.5.21",
+ "versionCode": 95,
+ "versionName": "3.5.22",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.21.apk",
- "notes": "默认主题改回工程舱（设置里仍可切对话式）；修复生图页添加参考图/附件无反应——WebView 的 <input type=file> 需要 onShowFileChooser 接管，之前没实现所以点击是静默失败的",
- "size": 526889
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.22.apk",
+ "notes": "反代后面连不稳：诊断工具（REST/WS 分别自检并给结论）、WS 被拦时自动改走兼容模式且不再每轮闪烁、隧道支持子路径前缀、心跳 45s→20s",
+ "size": 530985
 }
