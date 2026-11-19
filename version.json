@@ -1,9 +1,9 @@
 {
- "versionCode": 100,
- "versionName": "3.5.27",
+ "versionCode": 101,
+ "versionName": "3.5.28",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.27.apk",
- "notes": "多实例互踢修复：每个实例使用独立设备码（不再共用一行 app 连接、后登录顶掉先前 token）；401/Unauthorized 识别为凭证失效（自动续期或明确提示），不再误记为 WS 故障导致 10 分钟兼容模式",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.28.apk",
+ "notes": "实时通道修复：Forbidden 不再被误判为登录失效（避免一次握手失败直接登出）；兼容模式跑完自动静默复探，通了立即恢复实时流（不必再等 10 分钟）；自检通过即解除兼容模式；修正 #/chat/new 把 new 当成会话 id 的问题；实例切换时同步凭证，避免状态分叉导致 401",
  "size": 535081
 }
