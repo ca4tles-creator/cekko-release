@@ -1,9 +1,9 @@
 {
- "versionCode": 93,
- "versionName": "3.5.20",
+ "versionCode": 94,
+ "versionName": "3.5.21",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.20.apk",
- "notes": "图标换成黑白线稿头像：自适应(圆形安全区，头部完整/肩部出血)、legacy 满幅圆角、round、主题剪影(实心)，登录页与首页头像同步",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.21.apk",
+ "notes": "默认主题改回工程舱（设置里仍可切对话式）；修复生图页添加参考图/附件无反应——WebView 的 <input type=file> 需要 onShowFileChooser 接管，之前没实现所以点击是静默失败的",
  "size": 526889
 }
