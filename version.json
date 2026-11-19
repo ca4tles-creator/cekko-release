@@ -1,9 +1,9 @@
 {
- "versionCode": 98,
- "versionName": "3.5.25",
+ "versionCode": 99,
+ "versionName": "3.5.26",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.25.apk",
- "notes": "生图预览兜底：没有可用预览（没历史/接口失败/图片取不出来）时改用 App 图标，不再留空框或破图；首页生图卡片与生图页结果/历史/大图预览全部覆盖",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.26.apk",
+ "notes": "设置 · 实时通道自检：去掉说明小字；自检中显示「自检中…」并锁住入口，连点不再并发多路检测",
  "size": 535081
 }
