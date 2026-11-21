@@ -1,9 +1,9 @@
 {
- "versionCode": 106,
- "versionName": "3.5.33",
+ "versionCode": 107,
+ "versionName": "3.5.34",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.33.apk",
- "notes": "输入区上方三个参数直接显示、点击即改：模型 / 思考强度 / 上下文长度；点哪个就把运行配置面板定位到对应小节并高亮（模型小节自动聚焦搜索框）；上下文档位会标出当前值；面板有缓存时瞬间打开（实测 0.05s，不再每次转圈拉模型列表）；顶部参数行 320px 也不溢出",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.34.apk",
+ "notes": "模型设置面板改版：档位改为原版五档中文名（低/中/高/超高/Max）；输入框上方三颗 chip 统一配色，只显示当前值不写「思考/上下文」；上下文显示已用/总量；点模型、档位、上下文各自只展开对应设置。",
  "size": 547369
 }
