@@ -1,9 +1,9 @@
 {
- "versionCode": 109,
- "versionName": "3.5.36",
+ "versionCode": 110,
+ "versionName": "3.5.37",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.36.apk",
- "notes": "审批面板完整性：长命令默认 7 行可滚动、点一下展开全文（批准前必须能看全命令）；320px 下四个按钮自动换行不裁切",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.37.apk",
+ "notes": "回复里的代码块支持一键复制：表头显示语言 + 「复制」按钮（复制后变「已复制」），走原生剪贴板（file:// 页面拿不到 navigator.clipboard）；长代码块块内滚动、滚到底才收起底部渐隐；两套主题都适配",
  "size": 559657
 }
