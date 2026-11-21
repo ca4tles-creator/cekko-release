@@ -1,9 +1,9 @@
 {
- "versionCode": 111,
- "versionName": "3.5.38",
+ "versionCode": 112,
+ "versionName": "3.5.39",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.38.apk",
- "notes": "代码块体验补全：默认自动换行（安卓 WebView 不画横向滚动条，长命令被切等于看不见），表头加「自动换行 / 不换行」开关，长按不了时也能看全；复制走原生剪贴板，点完变「已复制」",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.39.apk",
+ "notes": "复制增加真实校验：原生写完后回读系统剪贴板并逐字节比对，按钮先显示「校验…」再给「已复制 / 复制不完整」，转义被破坏时不会假报成功；连续复制时旧计时器不再冲掉新状态",
  "size": 559657
 }
