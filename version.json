@@ -1,9 +1,9 @@
 {
- "versionCode": 113,
- "versionName": "3.5.40",
+ "versionCode": 114,
+ "versionName": "3.5.41",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.40.apk",
- "notes": "上下文用量改为读服务端真实值：打开旧会话不再显示 0/1.0M，取值是最近一次请求实际发出的提示词（输入+缓存命中），回到前台和每轮结束后都会重读；提示语写明「上一次请求」",
- "size": 563753
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.41.apk",
+ "notes": "模型面板按插件来源分组：顶部来源栏（全部/各 provider 带数量，可筛选），组标题吸顶并显示来源 id 与数量，组内共同前缀自动省略，行内勾选/默认/推理标签统一；思考档位改成一行一档带说明、面板高度随内容（不再留半屏空白）；上下文面板改为「已用/上限·百分比+进度条+剩余」加 4 列档位网格；底部上下文 chip 直接显示百分比并随手接近上限变色",
+ "size": 567849
 }
