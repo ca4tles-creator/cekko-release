@@ -1,9 +1,9 @@
 {
- "versionCode": 112,
- "versionName": "3.5.39",
+ "versionCode": 113,
+ "versionName": "3.5.40",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.39.apk",
- "notes": "复制增加真实校验：原生写完后回读系统剪贴板并逐字节比对，按钮先显示「校验…」再给「已复制 / 复制不完整」，转义被破坏时不会假报成功；连续复制时旧计时器不再冲掉新状态",
- "size": 559657
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.40.apk",
+ "notes": "上下文用量改为读服务端真实值：打开旧会话不再显示 0/1.0M，取值是最近一次请求实际发出的提示词（输入+缓存命中），回到前台和每轮结束后都会重读；提示语写明「上一次请求」",
+ "size": 563753
 }
