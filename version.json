@@ -1,9 +1,9 @@
 {
- "versionCode": 105,
- "versionName": "3.5.32",
+ "versionCode": 106,
+ "versionName": "3.5.33",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.32.apk",
- "notes": "输入框重做：单行 input 换成可生长的 textarea（最多 6 行，超出内部滚动）；模型胶囊移到输入框上方一行，输入框宽度 412 下 170→342px、320 下 118→253px；新增全屏编辑器（右下角 ⤴ 一点即开，占满整屏、实时字数、Ctrl+回车发送）；回车发送跳过输入法选词，Shift+回车换行；旋屏/键盘变化后自动重新量高，长文本不再被裁掉半截",
- "size": 543273
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.33.apk",
+ "notes": "输入区上方三个参数直接显示、点击即改：模型 / 思考强度 / 上下文长度；点哪个就把运行配置面板定位到对应小节并高亮（模型小节自动聚焦搜索框）；上下文档位会标出当前值；面板有缓存时瞬间打开（实测 0.05s，不再每次转圈拉模型列表）；顶部参数行 320px 也不溢出",
+ "size": 547369
 }
