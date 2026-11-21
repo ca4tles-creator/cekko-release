@@ -1,9 +1,9 @@
 {
- "versionCode": 107,
- "versionName": "3.5.34",
+ "versionCode": 108,
+ "versionName": "3.5.35",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.34.apk",
- "notes": "模型设置面板改版：档位改为原版五档中文名（低/中/高/超高/Max）；输入框上方三颗 chip 统一配色，只显示当前值不写「思考/上下文」；上下文显示已用/总量；点模型、档位、上下文各自只展开对应设置。",
- "size": 547369
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.35.apk",
+ "notes": "支持工具调用授权审批与追问：审批面板常驻输入框上方（命令原文、倒计时、允许一次/本会话/始终/拒绝）、重连后也能接住、追问支持选项与全屏长文本回答；新增语音输入：说话即转文字（服务器 STT，未配置时自动用本机语音服务），设置里可选 Groq/OpenAI/自建/SiliconFlow/豆包",
+ "size": 559657
 }
