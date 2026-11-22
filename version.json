@@ -1,9 +1,9 @@
 {
- "versionCode": 125,
- "versionName": "3.5.52",
+ "versionCode": 126,
+ "versionName": "3.5.53",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.52.apk",
- "notes": "修「后台还在跑但界面显示完成」：轮询收工不再只看消息是否变化，而是先用 resume 问服务器 isWorking（真结束才收工，还在跑就继续等并显示「服务器仍在执行」）；长时间无正文时也会定期确认并延长等待上限；同时给 run.completed / run.failed 加 run_id 校验，避免上一轮的收尾事件把当前轮提前判结束",
- "size": 6527827
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.53.apk",
+ "notes": "本机识别加了「同款模型」：把服务器上那套 sherpa-onnx streaming zipformer（en/zh 双语，190MB）也装进 App，用同一份模型、同一套解码参数，手机上识别结果与服务器一致；模型默认从你自己的服务器下载（已放在 app-release/models/），设置里可下载/删除/选择本机优先用同款还是轻量；APK 里带上 onnxruntime 与 sherpa 原生库（arm64）",
+ "size": 17431537
 }
