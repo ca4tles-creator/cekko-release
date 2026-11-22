@@ -1,9 +1,9 @@
 {
- "versionCode": 122,
- "versionName": "3.5.49",
+ "versionCode": 123,
+ "versionName": "3.5.50",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.49.apk",
- "notes": "语音内置第一步：Android 13+ 优先使用系统「设备端识别」引擎（createOnDeviceSpeechRecognizer）并声明优先离线，音频不出手机、不需要服务器；设置里显示本机离线识别是否可用，识别完成后提示本次走的是本机离线/手机云端/服务器",
- "size": 580137
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.50.apk",
+ "notes": "语音转文字内置到 App：打包 Vosk 原生库（arm64 + v7a，含 JNA），设置里可下载 42MB 中文离线模型；长按说话可选「本机离线」，全程不联网、音频不出手机；识别位置支持 自动/服务器/本机 三档，自动模式服务器优先、断网自动切本机",
+ "size": 6527827
 }
