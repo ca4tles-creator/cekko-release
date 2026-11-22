@@ -1,9 +1,9 @@
 {
- "versionCode": 117,
- "versionName": "3.5.44",
+ "versionCode": 118,
+ "versionName": "3.5.45",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.44.apk",
- "notes": "语音改为服务器本地识别：新装 Stream 中文英文模型（176MB，装在服务器上，不依赖外网、不需要 API key），并把录音从 m4a 改成 16k 单声道 WAV（本地模型只吃 PCM，之前 m4a 会被拒绝）；上传时补上 provider，冷启动也不会再说不出话",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.45.apk",
+ "notes": "前后台切换稳定性：回前台一律重建实时连接（后台冻结后 connected 仍是 true 但发不出去，复用会卡在「连接中」20 秒），并在 450ms 后静默预握一条新的；池化连接超过两轮心跳即作废；会话列表改为缓存优先直出（不再每次闪「正在拉取会话…」）、20 秒超时 + 自动重试一次、8 秒内不重复拉取；GET 网络错误统一重试一次；后台期间发生的断开不再显示为「最近断开」；onResume 与 visibilitychange 重复触发做了防抖",
  "size": 571945
 }
