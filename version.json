@@ -1,9 +1,9 @@
 {
- "versionCode": 115,
- "versionName": "3.5.42",
+ "versionCode": 116,
+ "versionName": "3.5.43",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.42.apk",
- "notes": "修复上下文偶尔显示「—」：上限缓存从 promise 改成「按 provider|model 缓存值」并持久化，换会话/冷启动立刻有值；读取中显示「…」，确实取不到才显示「—」并在提示里说明可手动设定；context-length 返回 0 时回退查模型注册表；切换实例清空缓存",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.43.apk",
+ "notes": "语音输入改成长按输入框：去掉那个丑图标按钮，长按 0.38 秒开始录音（震动一下），松手转文字填入输入框，上滑松手取消并恢复原文；录音中输入框红边 + 上方「正在录音 0:0X · 松手转成文字」纯文字提示；输入框占位符提示「长按说话」；授权后不再自动开录，改为提示再长按一次",
  "size": 567849
 }
