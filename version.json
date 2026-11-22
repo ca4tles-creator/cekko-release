@@ -1,9 +1,9 @@
 {
- "versionCode": 127,
- "versionName": "3.5.54",
+ "versionCode": 128,
+ "versionName": "3.5.55",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.54.apk",
- "notes": "语音输入设置重做：本机引擎改成可点选的列表（系统语音识别 / sherpa-onnx 流式 zipformer 中英双语 int8 / Vosk 中文小模型 0.22），点哪个用哪个，识别位置自动切到仅本机；服务器识别里补上「服务器本机模型」，状态文案全部改成中文并写清具体模型名，不再用同款/轻量这类相对说法",
- "size": 17431537
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.55.apk",
+ "notes": "修「后台切换后任务显示已完成」：后台期间不再根据消息是否变化判定结束（那段读到的都是残影），回前台时若上一轮没拿到服务器确认会再问一次，真还在跑就自动重新接入；输入框默认提示改为「可按住转文字」；录音浮层按微信长按说话的样式重做（跟随音量跳动的波形 + 计时 + 松手转文字·上滑取消，上滑时整块变红）",
+ "size": 17435633
 }
