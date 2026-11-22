@@ -1,9 +1,9 @@
 {
- "versionCode": 123,
- "versionName": "3.5.50",
+ "versionCode": 124,
+ "versionName": "3.5.51",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.50.apk",
- "notes": "语音转文字内置到 App：打包 Vosk 原生库（arm64 + v7a，含 JNA），设置里可下载 42MB 中文离线模型；长按说话可选「本机离线」，全程不联网、音频不出手机；识别位置支持 自动/服务器/本机 三档，自动模式服务器优先、断网自动切本机",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.51.apk",
+ "notes": "模型下载加自建源：官方 CDN 之外，自动尝试你自己服务器 ~/app-release/models/ 下的同名文件（国内下载快得多），并在设置里说明",
  "size": 6527827
 }
