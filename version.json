@@ -1,9 +1,9 @@
 {
- "versionCode": 114,
- "versionName": "3.5.41",
+ "versionCode": 115,
+ "versionName": "3.5.42",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.41.apk",
- "notes": "模型面板按插件来源分组：顶部来源栏（全部/各 provider 带数量，可筛选），组标题吸顶并显示来源 id 与数量，组内共同前缀自动省略，行内勾选/默认/推理标签统一；思考档位改成一行一档带说明、面板高度随内容（不再留半屏空白）；上下文面板改为「已用/上限·百分比+进度条+剩余」加 4 列档位网格；底部上下文 chip 直接显示百分比并随手接近上限变色",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.42.apk",
+ "notes": "修复上下文偶尔显示「—」：上限缓存从 promise 改成「按 provider|model 缓存值」并持久化，换会话/冷启动立刻有值；读取中显示「…」，确实取不到才显示「—」并在提示里说明可手动设定；context-length 返回 0 时回退查模型注册表；切换实例清空缓存",
  "size": 567849
 }
