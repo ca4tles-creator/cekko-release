@@ -1,9 +1,9 @@
 {
- "versionCode": 119,
- "versionName": "3.5.46",
+ "versionCode": 120,
+ "versionName": "3.5.47",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.46.apk",
- "notes": "修复「跟随系统」一直暗色：WebView 的 prefers-color-scheme 在本机壳里恒为深色（Activity 主题是 Theme.Black，manifest 又自己处理 uiMode），改为向原生查询系统深浅色，并在系统切换时由原生推送更新；设置页显示「系统当前 / 本应用」便于核对",
- "size": 571945
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.47.apk",
+ "notes": "修复语音转文字报 no protocol：原生从未收到服务器地址（attachBase 只在选过附件时才赋值），现在 setBaseUrl/voiceStart/voiceStop 都带上地址与令牌，并在缺失时给出中文提示；附件上传：图片超过 1.2MB 自动压到长边 2048/JPEG 88（9.4MB → 约 800KB，并按 EXIF 摆正），上传改为定长流，界面显示实时百分比，完成后提示压缩前后大小",
+ "size": 576041
 }
