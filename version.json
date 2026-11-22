@@ -1,9 +1,9 @@
 {
- "versionCode": 126,
- "versionName": "3.5.53",
+ "versionCode": 127,
+ "versionName": "3.5.54",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.53.apk",
- "notes": "本机识别加了「同款模型」：把服务器上那套 sherpa-onnx streaming zipformer（en/zh 双语，190MB）也装进 App，用同一份模型、同一套解码参数，手机上识别结果与服务器一致；模型默认从你自己的服务器下载（已放在 app-release/models/），设置里可下载/删除/选择本机优先用同款还是轻量；APK 里带上 onnxruntime 与 sherpa 原生库（arm64）",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.54.apk",
+ "notes": "语音输入设置重做：本机引擎改成可点选的列表（系统语音识别 / sherpa-onnx 流式 zipformer 中英双语 int8 / Vosk 中文小模型 0.22），点哪个用哪个，识别位置自动切到仅本机；服务器识别里补上「服务器本机模型」，状态文案全部改成中文并写清具体模型名，不再用同款/轻量这类相对说法",
  "size": 17431537
 }
