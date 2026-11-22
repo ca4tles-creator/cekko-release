@@ -1,9 +1,9 @@
 {
- "versionCode": 120,
- "versionName": "3.5.47",
+ "versionCode": 121,
+ "versionName": "3.5.48",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.47.apk",
- "notes": "修复语音转文字报 no protocol：原生从未收到服务器地址（attachBase 只在选过附件时才赋值），现在 setBaseUrl/voiceStart/voiceStop 都带上地址与令牌，并在缺失时给出中文提示；附件上传：图片超过 1.2MB 自动压到长边 2048/JPEG 88（9.4MB → 约 800KB，并按 EXIF 摆正），上传改为定长流，界面显示实时百分比，完成后提示压缩前后大小",
- "size": 576041
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.48.apk",
+ "notes": "语音改成边说边出字：录音时每约 0.5 秒把 PCM 发到 /local-stream，识别结果实时填进输入框，松手只需 finish（实测 43~70ms，不再等整段上传）；同时修崩溃——旧代码先 release AudioRecord 再 join 读线程，读线程还在 read() 里会触发 native 崩溃，现在改为 停采集→join 两个线程→最后 release，并加热连续长按的收尾保护；弱网时自动退回整段 WAV 上传",
+ "size": 580137
 }
