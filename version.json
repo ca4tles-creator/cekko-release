@@ -1,9 +1,9 @@
 {
- "versionCode": 116,
- "versionName": "3.5.43",
+ "versionCode": 117,
+ "versionName": "3.5.44",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.43.apk",
- "notes": "语音输入改成长按输入框：去掉那个丑图标按钮，长按 0.38 秒开始录音（震动一下），松手转文字填入输入框，上滑松手取消并恢复原文；录音中输入框红边 + 上方「正在录音 0:0X · 松手转成文字」纯文字提示；输入框占位符提示「长按说话」；授权后不再自动开录，改为提示再长按一次",
- "size": 567849
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.44.apk",
+ "notes": "语音改为服务器本地识别：新装 Stream 中文英文模型（176MB，装在服务器上，不依赖外网、不需要 API key），并把录音从 m4a 改成 16k 单声道 WAV（本地模型只吃 PCM，之前 m4a 会被拒绝）；上传时补上 provider，冷启动也不会再说不出话",
+ "size": 571945
 }
