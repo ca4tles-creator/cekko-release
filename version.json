@@ -1,9 +1,9 @@
 {
- "versionCode": 121,
- "versionName": "3.5.48",
+ "versionCode": 122,
+ "versionName": "3.5.49",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.48.apk",
- "notes": "语音改成边说边出字：录音时每约 0.5 秒把 PCM 发到 /local-stream，识别结果实时填进输入框，松手只需 finish（实测 43~70ms，不再等整段上传）；同时修崩溃——旧代码先 release AudioRecord 再 join 读线程，读线程还在 read() 里会触发 native 崩溃，现在改为 停采集→join 两个线程→最后 release，并加热连续长按的收尾保护；弱网时自动退回整段 WAV 上传",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.49.apk",
+ "notes": "语音内置第一步：Android 13+ 优先使用系统「设备端识别」引擎（createOnDeviceSpeechRecognizer）并声明优先离线，音频不出手机、不需要服务器；设置里显示本机离线识别是否可用，识别完成后提示本次走的是本机离线/手机云端/服务器",
  "size": 580137
 }
