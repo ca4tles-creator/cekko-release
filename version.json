@@ -1,9 +1,9 @@
 {
- "versionCode": 139,
- "versionName": "3.5.66",
+ "versionCode": 140,
+ "versionName": "3.5.67",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.66.apk",
- "notes": "修生图服务商配置面板在键盘弹出时的错位：面板高度原来写死 88vh（vh 不随输入法缩小），键盘一弹就比可视区还高，被顶到状态栏底下——标题和上半截输入框看不见，顶部还会压住状态栏文字。现在高度随内容、上限取可视区实际高度，顶部让出状态栏，内容多时只滚中间那一段（标题与保存按钮固定）；输入框获得焦点会自动滚进可见区。所有底部面板（语音、模型、审批等）一并受益",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.67.apk",
+ "notes": "密钥显示收紧：服务器给的掩码是「前4…后4」，十几位的密钥等于把一大半打在屏幕上，截图一分享就露了。现在只显示「密钥尾号 XXXX」（认得出是哪一把就够），配置面板和卡片一致。APK 本身不含任何密钥：密钥只存在你登录的那台服务器的环境里，App 从来没拿到过原文",
  "size": 17452017
 }
