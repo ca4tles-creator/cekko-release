@@ -1,9 +1,9 @@
 {
- "versionCode": 136,
- "versionName": "3.5.63",
+ "versionCode": 137,
+ "versionName": "3.5.64",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.63.apk",
- "notes": "生图工作台：把选中服务商时那条警告里的服务器原文也翻成人话（原来会直接显示「缺少 API Key：在 .env 里补 AGNES_API_KEY…」），并在警告条右侧加「去配置」按钮直达配置面板",
- "size": 17447921
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.64.apk",
+ "notes": "聊天附件支持多选：系统选择器里一次挑多个，一次请求全部上传（服务端本来就支持多 part），进度按总字节算；上传完统一提示「已添加 N 个附件 · 原大小 → 压缩后」；附件栏横向滚动时右边缘渐隐提示；桌面上用文件输入也能多选",
+ "size": 17452017
 }
