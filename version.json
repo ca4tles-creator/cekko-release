@@ -1,9 +1,9 @@
 {
- "versionCode": 140,
- "versionName": "3.5.67",
+ "versionCode": 141,
+ "versionName": "3.5.68",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.67.apk",
- "notes": "密钥显示收紧：服务器给的掩码是「前4…后4」，十几位的密钥等于把一大半打在屏幕上，截图一分享就露了。现在只显示「密钥尾号 XXXX」（认得出是哪一把就够），配置面板和卡片一致。APK 本身不含任何密钥：密钥只存在你登录的那台服务器的环境里，App 从来没拿到过原文",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.68.apk",
+ "notes": "生图服务商配置加「从接口获取模型」：点一下按你填的地址（到 /v1 为止）向接口要模型列表，结果以纵向列表列出、点一个就填进模型框；请求走你自己的服务器发出（手机不需要直连外网、也不受跨域限制），密钥只用于这一次请求、不保存。拿不到时按 401/404/超时/连不上分别给出人话提示，仍可手填",
  "size": 17452017
 }
