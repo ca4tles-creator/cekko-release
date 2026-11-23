@@ -1,9 +1,9 @@
 {
- "versionCode": 129,
- "versionName": "3.5.56",
+ "versionCode": 130,
+ "versionName": "3.5.57",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.56.apk",
- "notes": "审批、追问、模型与更新下载接入系统通知：两个独立通道（审批与追问·高优先级带震动；下载·静音进度条），点通知直接回到对应会话；设置里新增「提醒通知」开关，首次启动引导开启。屏幕提示改用应用内顶部横幅（带状态色与操作按钮，最多 3 条、自动消失），原生提示也统一走横幅；审批卡片重排为 2×2 按钮、命令块加底色圆角",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.57.apk",
+ "notes": "sherpa 的说明改成只描述模型本身（本机离线识别、音频不出手机），不再出现「与服务器一致」这类相对说法；模型下载加公共镜像兜底：自己服务器上没放那个 zip 时自动改用 hf-mirror 逐文件下载，别人用自己搭的服务器也能装本机模型；修模型下载进度画错行的问题（sherpa 的进度曾显示在 Vosk 那一行）",
  "size": 17443825
 }
