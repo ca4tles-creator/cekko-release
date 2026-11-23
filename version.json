@@ -1,9 +1,9 @@
 {
- "versionCode": 128,
- "versionName": "3.5.55",
+ "versionCode": 129,
+ "versionName": "3.5.56",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.55.apk",
- "notes": "修「后台切换后任务显示已完成」：后台期间不再根据消息是否变化判定结束（那段读到的都是残影），回前台时若上一轮没拿到服务器确认会再问一次，真还在跑就自动重新接入；输入框默认提示改为「可按住转文字」；录音浮层按微信长按说话的样式重做（跟随音量跳动的波形 + 计时 + 松手转文字·上滑取消，上滑时整块变红）",
- "size": 17435633
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.56.apk",
+ "notes": "审批、追问、模型与更新下载接入系统通知：两个独立通道（审批与追问·高优先级带震动；下载·静音进度条），点通知直接回到对应会话；设置里新增「提醒通知」开关，首次启动引导开启。屏幕提示改用应用内顶部横幅（带状态色与操作按钮，最多 3 条、自动消失），原生提示也统一走横幅；审批卡片重排为 2×2 按钮、命令块加底色圆角",
+ "size": 17443825
 }
