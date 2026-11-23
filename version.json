@@ -1,9 +1,9 @@
 {
- "versionCode": 135,
- "versionName": "3.5.62",
+ "versionCode": 136,
+ "versionName": "3.5.63",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.62.apk",
- "notes": "生图工作台的界面文案去掉一切给运维看的词：不再出现 .env、变量名、base_url、profile、Key 之类的字样，统一说成「接口地址 / 模型 / 密钥」，并注明密钥保存在你登录的这台服务器上；服务器返回的技术提示（缺 API Key、未配置 base_url 等）在显示前统一翻译成人话；服务商卡片上的 chat 改成「文本模型」，未配置时直接写明差什么；顺带把用量面板与清空历史的说明也改成白话",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.63.apk",
+ "notes": "生图工作台：把选中服务商时那条警告里的服务器原文也翻成人话（原来会直接显示「缺少 API Key：在 .env 里补 AGNES_API_KEY…」），并在警告条右侧加「去配置」按钮直达配置面板",
  "size": 17447921
 }
