@@ -1,9 +1,9 @@
 {
- "versionCode": 138,
- "versionName": "3.5.65",
+ "versionCode": 139,
+ "versionName": "3.5.66",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.65.apk",
- "notes": "修「从设置页返回后，顶部那一行（含设置按钮）不见了」：会话列表的「8 秒内刚拉过就不再请求」快捷分支只重画了列表就返回，把顶栏和筛选条留成空白；现在页面一建好就无条件先画顶栏/筛选/统计，快捷分支也补齐",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.66.apk",
+ "notes": "修生图服务商配置面板在键盘弹出时的错位：面板高度原来写死 88vh（vh 不随输入法缩小），键盘一弹就比可视区还高，被顶到状态栏底下——标题和上半截输入框看不见，顶部还会压住状态栏文字。现在高度随内容、上限取可视区实际高度，顶部让出状态栏，内容多时只滚中间那一段（标题与保存按钮固定）；输入框获得焦点会自动滚进可见区。所有底部面板（语音、模型、审批等）一并受益",
  "size": 17452017
 }
