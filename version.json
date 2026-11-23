@@ -1,9 +1,9 @@
 {
- "versionCode": 134,
- "versionName": "3.5.61",
+ "versionCode": 135,
+ "versionName": "3.5.62",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.61.apk",
- "notes": "修「上滑取消不好用」：手势被系统抢走时（滚动/下拉通知/选择菜单）以前按“松手发送”处理，现在按取消处理；录音中真正阻止页面滚动（passive:false + preventDefault）、抓住指针防丢；取消阈值 70→60px 并加 45px 迟滞，中途显示「继续上滑可取消」，进入取消区震动一下；录音期间禁止选中文字，避免长按弹菜单打断录音；取消后迟到的识别结果不再覆盖输入框",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.62.apk",
+ "notes": "生图工作台的界面文案去掉一切给运维看的词：不再出现 .env、变量名、base_url、profile、Key 之类的字样，统一说成「接口地址 / 模型 / 密钥」，并注明密钥保存在你登录的这台服务器上；服务器返回的技术提示（缺 API Key、未配置 base_url 等）在显示前统一翻译成人话；服务商卡片上的 chat 改成「文本模型」，未配置时直接写明差什么；顺带把用量面板与清空历史的说明也改成白话",
  "size": 17447921
 }
