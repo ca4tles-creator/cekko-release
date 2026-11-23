@@ -1,9 +1,9 @@
 {
- "versionCode": 131,
- "versionName": "3.5.58",
+ "versionCode": 132,
+ "versionName": "3.5.59",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.58.apk",
- "notes": "修「长时间后台切回来一直显示连接中断，重连」：重新接入加了看门狗（resume 发出 9 秒没回音就当僵尸连接，换一条重试），最多 40 秒连不上就改为读服务器上的最新内容并说明情况，不再无限演重连；后台回来时不再对「连着但发不出包」的僵尸连接发 resume，直接重建；后台待久了 JWT 过期会先续登录再重连；保活期间原生每 12 秒叫醒一次渲染器并让页面自己探活（后台冻结时定时器全停，这是断线的根因），唤醒锁上限 30→90 分钟；打开旧会话先问服务器是否真在跑，结束的会话不再先闪一段重连中",
- "size": 17443825
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.59.apk",
+ "notes": "两个本机识别模型的按钮样式统一（原来 sherpa 是填色主按钮、Vosk 是描边，看着像两套东西）；已下载的模型现在一定显示「删除」，删除前弹二次确认（红色危险按钮，写清占用多少空间），装完/删完立刻就地刷新那一行，不用关掉面板再打开",
+ "size": 17447921
 }
