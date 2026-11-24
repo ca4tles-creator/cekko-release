@@ -1,9 +1,9 @@
 {
- "versionCode": 150,
- "versionName": "3.5.77",
+ "versionCode": 151,
+ "versionName": "3.5.78",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.77.apk",
- "notes": "下载默认存到 /Cekko（未授权「所有文件访问」时存 下载/Cekko）；更新下载改前台服务，切后台不会卡住，离开设置页或切出去回来也会自动打开安装程序。",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.78.apk",
+ "notes": "语音输入两处修：① 按住说话不再「迟钝」——以前是先加载识别模型（sherpa 190MB 要 1~3 秒）才开始录音，开头说的话全丢、波形也不动；现在一按就先录，模型在后台并行加载，攒下的音频再补进去，一个字不少；模型用完后保留一分钟，连续说话不用反复加载。② 修误报：本机装的是 sherpa 时，仍然会弹「本机模型未安装」，其实一直在用本机模型；现在只有真的退到服务器/手机引擎时才提示，并且会说清这次用的是哪个；真没得用时弹的配置框也只列确实缺的那几项",
  "size": 17472497
 }
