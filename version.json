@@ -1,9 +1,9 @@
 {
- "versionCode": 147,
- "versionName": "3.5.74",
+ "versionCode": 148,
+ "versionName": "3.5.75",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.74.apk",
- "notes": "修「切走再回会话，停止按钮变回发送」：按钮现在按「服务器说这一轮还在跑」判断，不再只看本机有没有握着实时通道——本机接不上（别的设备发起、刚回前台）时同样是停止键；点停止在没有常驻连接时会临时开一条把中断指令发出去，不再只弹一句「正在停止」却什么都没发生。顺带：服务器确认结束后，跑完期间排队输入的消息会自动发出；一进页面不会再把排队消息抢先发出去",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.75.apk",
+ "notes": "聊天里的文件（xlsx/docx/pdf 等）点了现在会真的下载到手机：新增原生下载通道，存到 下载/EkkoStudio，保存后可直接打开",
  "size": 17464305
 }
