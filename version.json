@@ -1,9 +1,9 @@
 {
- "versionCode": 143,
- "versionName": "3.5.70",
+ "versionCode": 144,
+ "versionName": "3.5.71",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.70.apk",
- "notes": "会话完成加系统通知：走独立的「会话完成」通知通道（提示音、不震动），每个会话一条、点一下直接回到那个会话；正在看这个会话时不打扰。设置里通知整合成一个分区：通知权限 + 审批与追问 / 会话完成 / 下载进度 三个开关（各管一类）+ 直达系统通知设置；关掉某类会顺手收掉已经挂在栏里的那条",
- "size": 17456113
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.71.apk",
+ "notes": "会话运行状态按服务器真实执行状态显示：后台跑着的对话会标「运行中」并排在最前，打开后自动跟随最新内容。",
+ "size": 17591364
 }
