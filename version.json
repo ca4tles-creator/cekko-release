@@ -1,9 +1,9 @@
 {
- "versionCode": 155,
- "versionName": "3.5.82",
+ "versionCode": 156,
+ "versionName": "3.5.83",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.82.apk",
- "notes": "新增三套主题（设置 → 主题）：工程舱（默认，跟随系统明暗）/ 沉静实底（深色实底＋暖金，6px 圆角、发丝分割线、大号等宽数字、运行中会话底部金色流光）/ 原版（炭灰＋琥珀，独立卡片、12px 圆角）。原来的「水面」主题已移除。主题只改配色与圆角，消息排版（列表式/对话式）单独一项，两者可自由组合",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.83.apk",
+ "notes": "审批提醒修复：会话页里审批卡片在屏外时也会推通知，审批出现时自动滚到卡片位置",
  "size": 17476593
 }
