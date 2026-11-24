@@ -1,9 +1,9 @@
 {
- "versionCode": 141,
- "versionName": "3.5.68",
+ "versionCode": 142,
+ "versionName": "3.5.69",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.68.apk",
- "notes": "生图服务商配置加「从接口获取模型」：点一下按你填的地址（到 /v1 为止）向接口要模型列表，结果以纵向列表列出、点一个就填进模型框；请求走你自己的服务器发出（手机不需要直连外网、也不受跨域限制），密钥只用于这一次请求、不保存。拿不到时按 401/404/超时/连不上分别给出人话提示，仍可手填",
- "size": 17452017
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.69.apk",
+ "notes": "修实时通道「首字一直是0」：以前只有实时流这一个路径会记首字时间——断线后走轮询、或降级到兼容模式的那一轮完全没记，后台重新接入的那一轮也没记，所以看到的永远是上一次（或 0）。现在四条路径都记，并标明这一轮走的是实时/轮询/兼容模式；取不到的数值显示成「—」而不是 0ms，并说清那个数字的含义",
+ "size": 17456113
 }
