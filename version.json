@@ -1,9 +1,9 @@
 {
- "versionCode": 152,
- "versionName": "3.5.79",
+ "versionCode": 153,
+ "versionName": "3.5.80",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.79.apk",
- "notes": "新增「水面」风格：深水底色 + 暖金强调，外观里可切换（默认仍是工程舱）",
- "size": 17476593
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.80.apk",
+ "notes": "水面风格重做：移植 TrackFerry 的 WebGL 水面（波纹/倒影/点击涟漪）+ MiSans 字体 + 细字重排版 + 11 组动效与变色",
+ "size": 22076850
 }
