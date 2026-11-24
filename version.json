@@ -1,9 +1,9 @@
 {
- "versionCode": 146,
- "versionName": "3.5.73",
+ "versionCode": 147,
+ "versionName": "3.5.74",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.73.apk",
- "notes": "会话里也能一眼看出运行中：顶栏标题旁加「运行中」胶囊（实时通道接得上接不上都亮着，靠服务器状态驱动），底部状态条从 11px 灰字改成带底色的胶囊；实时通道接不上但服务器还在跑时，自动进入「正在运行 · 自动同步」每 8 秒同步，不再只丢一句提示；长任务迟迟不出正文时显示「服务器还在处理」而不是刺眼的「0 字」；离开会话页会停掉后台轮询",
- "size": 17460209
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.74.apk",
+ "notes": "修「切走再回会话，停止按钮变回发送」：按钮现在按「服务器说这一轮还在跑」判断，不再只看本机有没有握着实时通道——本机接不上（别的设备发起、刚回前台）时同样是停止键；点停止在没有常驻连接时会临时开一条把中断指令发出去，不再只弹一句「正在停止」却什么都没发生。顺带：服务器确认结束后，跑完期间排队输入的消息会自动发出；一进页面不会再把排队消息抢先发出去",
+ "size": 17464305
 }
