@@ -4,6 +4,6 @@
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
  "apkPath": "app-release/ekko-studio-android/Cekko-3.5.71.apk",
- "notes": "会话运行状态按服务器真实执行状态显示：后台跑着的对话会标「运行中」并排在最前，打开后自动跟随最新内容。",
+ "notes": "更新下载完的通知变成一个安装入口：安装器真的打开了就自动收掉；没打开（缺「安装未知应用」权限、系统拦了后台启动、安装包被清理）就留着，点通知直接装机。后台下完不再硬拉安装器，改挂一条可点的通知；去授权页开完权限回来会自动接着装",
  "size": 17591364
 }
