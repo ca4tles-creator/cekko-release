@@ -1,9 +1,9 @@
 {
- "versionCode": 142,
- "versionName": "3.5.69",
+ "versionCode": 143,
+ "versionName": "3.5.70",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.69.apk",
- "notes": "修实时通道「首字一直是0」：以前只有实时流这一个路径会记首字时间——断线后走轮询、或降级到兼容模式的那一轮完全没记，后台重新接入的那一轮也没记，所以看到的永远是上一次（或 0）。现在四条路径都记，并标明这一轮走的是实时/轮询/兼容模式；取不到的数值显示成「—」而不是 0ms，并说清那个数字的含义",
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.70.apk",
+ "notes": "会话完成加系统通知：走独立的「会话完成」通知通道（提示音、不震动），每个会话一条、点一下直接回到那个会话；正在看这个会话时不打扰。设置里通知整合成一个分区：通知权限 + 审批与追问 / 会话完成 / 下载进度 三个开关（各管一类）+ 直达系统通知设置；关掉某类会顺手收掉已经挂在栏里的那条",
  "size": 17456113
 }
