@@ -1,9 +1,9 @@
 {
- "versionCode": 154,
- "versionName": "3.5.81",
+ "versionCode": 155,
+ "versionName": "3.5.82",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.81.apk",
- "notes": "水面风格收尾：只保留设计思路（单一强调色、细字重、大字级、克制动效），去掉对 TrackFerry 的具象复刻（自备字体/水面着色器/涟漪），安装包回到 17M",
- "size": 17480689
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.82.apk",
+ "notes": "新增三套主题（设置 → 主题）：工程舱（默认，跟随系统明暗）/ 沉静实底（深色实底＋暖金，6px 圆角、发丝分割线、大号等宽数字、运行中会话底部金色流光）/ 原版（炭灰＋琥珀，独立卡片、12px 圆角）。原来的「水面」主题已移除。主题只改配色与圆角，消息排版（列表式/对话式）单独一项，两者可自由组合",
+ "size": 17476593
 }
