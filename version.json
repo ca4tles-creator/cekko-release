@@ -1,9 +1,9 @@
 {
- "versionCode": 149,
- "versionName": "3.5.76",
+ "versionCode": 150,
+ "versionName": "3.5.77",
  "apkUrl": "https://github.com/ca4tles-creator/cekko-release/releases/latest/download/Cekko.apk",
  "apkMirrors": [],
- "apkPath": "app-release/ekko-studio-android/Cekko-3.5.76.apk",
- "notes": "下载体验：新增实时进度条（百分比 + 已下载/总大小），设置里可改默认下载位置（默认 下载/EkkoStudio，可自选任意文件夹）",
- "size": 17468401
+ "apkPath": "app-release/ekko-studio-android/Cekko-3.5.77.apk",
+ "notes": "下载默认存到 /Cekko（未授权「所有文件访问」时存 下载/Cekko）；更新下载改前台服务，切后台不会卡住，离开设置页或切出去回来也会自动打开安装程序。",
+ "size": 17472497
 }
